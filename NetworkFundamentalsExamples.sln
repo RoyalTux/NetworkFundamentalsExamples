@@ -5,7 +5,15 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IpDnsExample", "IpDnsExample\IpDnsExample.csproj", "{2735191C-3179-4CD4-98BB-3CE0ACF65AB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpListenerExample", "HttpListener\HttpListenerExample.csproj", "{138B387B-1D99-44CD-B809-B4AC8F4B30F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpListenerExample", "HttpListener\HttpListenerExample.csproj", "{138B387B-1D99-44CD-B809-B4AC8F4B30F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TcpChat", "TcpChat", "{76731175-F9F5-47C0-9851-FB12BA8B3801}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UdpChat", "UdpChat", "{ACD86D74-64B3-4633-9AC5-62A71F1351CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpChatClient", "TcpChatClient\TcpChatClient.csproj", "{D8ABE57D-4EC7-4EF2-8DB4-25E4F12369D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpChatServer", "TcpChatServer\TcpChatServer.csproj", "{57F8DC7F-8D57-4C44-8EB0-B3E85B0145C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +29,21 @@ Global
 		{138B387B-1D99-44CD-B809-B4AC8F4B30F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{138B387B-1D99-44CD-B809-B4AC8F4B30F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{138B387B-1D99-44CD-B809-B4AC8F4B30F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8ABE57D-4EC7-4EF2-8DB4-25E4F12369D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8ABE57D-4EC7-4EF2-8DB4-25E4F12369D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8ABE57D-4EC7-4EF2-8DB4-25E4F12369D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8ABE57D-4EC7-4EF2-8DB4-25E4F12369D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F8DC7F-8D57-4C44-8EB0-B3E85B0145C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F8DC7F-8D57-4C44-8EB0-B3E85B0145C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F8DC7F-8D57-4C44-8EB0-B3E85B0145C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F8DC7F-8D57-4C44-8EB0-B3E85B0145C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8ABE57D-4EC7-4EF2-8DB4-25E4F12369D4} = {76731175-F9F5-47C0-9851-FB12BA8B3801}
+		{57F8DC7F-8D57-4C44-8EB0-B3E85B0145C1} = {76731175-F9F5-47C0-9851-FB12BA8B3801}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28F9452D-EF0E-4B26-8035-A2B812208666}
