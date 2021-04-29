@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpListenerExample", "Http
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TcpChat", "TcpChat", "{76731175-F9F5-47C0-9851-FB12BA8B3801}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UdpChat", "UdpChat", "{ACD86D74-64B3-4633-9AC5-62A71F1351CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TcpChatClient", "TcpChatClient\TcpChatClient.csproj", "{D8ABE57D-4EC7-4EF2-8DB4-25E4F12369D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpChatClient", "TcpChatClient\TcpChatClient.csproj", "{D8ABE57D-4EC7-4EF2-8DB4-25E4F12369D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TcpChatServer", "TcpChatServer\TcpChatServer.csproj", "{57F8DC7F-8D57-4C44-8EB0-B3E85B0145C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpChatServer", "TcpChatServer\TcpChatServer.csproj", "{57F8DC7F-8D57-4C44-8EB0-B3E85B0145C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpChat", "UdpChat\UdpChat.csproj", "{76749BD3-6E99-45C6-BE30-3F43FEB27310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +37,10 @@ Global
 		{57F8DC7F-8D57-4C44-8EB0-B3E85B0145C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57F8DC7F-8D57-4C44-8EB0-B3E85B0145C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57F8DC7F-8D57-4C44-8EB0-B3E85B0145C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76749BD3-6E99-45C6-BE30-3F43FEB27310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76749BD3-6E99-45C6-BE30-3F43FEB27310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76749BD3-6E99-45C6-BE30-3F43FEB27310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76749BD3-6E99-45C6-BE30-3F43FEB27310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
