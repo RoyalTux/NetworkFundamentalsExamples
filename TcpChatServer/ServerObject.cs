@@ -68,9 +68,9 @@ namespace TcpChatServer
         {
             tcpListener.Stop();
 
-            for (int i = 0; i < clients.Count; i++)
+            foreach (ClientObject client in clients)
             {
-                clients[i].Close();
+                client.Close();
             }
 
             Environment.Exit(0);
